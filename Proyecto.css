@@ -7,29 +7,10 @@
 
 /* INICIO HEADER*/
 
-header 
-        {display: flex;
-        align-items: center;
-        background-color: black;
-        height: 100px;
-        width: auto;}
+nav .navbar {background-color: black;}
 
-.logoPrincipal {padding: 10px;}
 
-.enlaces ul li 
-                {display: inline-block;
-                align-items: center;
-                font-size: 25px;
-                margin-left: 35px;
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;} 
 
-.enlaces ul li a 
-                {display: block; 
-                color: white;
-                height: 3px;
-                width: 100%;
-                background: white;
-                transition: .4s;}
                 
 /*FIN HEADER*/
 
@@ -111,6 +92,7 @@ input
         
         
 }
-
+div conteiner 
+{column-gap: 5px;}
              
 
