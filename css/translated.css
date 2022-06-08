@@ -1,0 +1,51 @@
+/*INICIO MAIN INDEX*/
+div h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  color: white;
+  padding: 10px;
+  animation: move 3s; }
+
+h5.carrusel-title {
+  color: black; }
+
+p.carrusel-subtitle {
+  color: #1a1a1a; }
+
+div .carousel-caption {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+/*FIN MAIN INDEX*/
+
+/*INICIO MAIN PRODUCTOS*/
+
+h1.title-productos {
+  display: flex;
+  justify-content: center;
+  color: #1d1d1d;
+  margin: 15px;
+  font-size: 40px; }
+
+h3.subtitle-productos {
+  display: flex;
+  justify-content: center;
+  color: #363636;
+  margin: 25px; }
+
+h5.card-title {
+  display: flex;
+  justify-content: center; }
+
+p.card-text {
+  display: flex;
+  justify-content: center;
+  color: #505050;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+p.card-precio {
+  font-size: 18px;
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  /*FIN MAIN PRODUCTOS*/
