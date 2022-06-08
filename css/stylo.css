@@ -5,21 +5,29 @@
         list-style: none;
         text-decoration: none;}
 
-/* INICIO HEADER*/
+/*INICIO MAIN INDEX*/
 
+div h1{display: flex;justify-content: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 40px; color: white;padding: 10px;animation: move 3s;}
+div p.parrafo1 {display: flex;justify-content: center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 24px; color: rgba(255, 255, 255, 0.774); margin: 25px;}
+div  .card {border: 1px solid rgba(161, 161, 161, 0.808);}
+div .row .col-8 {display: block}
+h5.carrusel-title{color: black;}
+p.carrusel-subtitle {color: rgb(26, 26, 26);}
+div .carousel-caption {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+            
 
+/*FIN MAIN INDEX*/
 
-                
-/*FIN HEADER*/
+/*INICIO MAIN PRODUCTOS*/
+h1.title-productos {display: flex;justify-content: center;color: rgb(29, 29, 29); margin: 15px;font-size: 40px;}
+h3.subtitle-productos{display: flex;justify-content: center;color: rgb(54, 54, 54);margin: 25px;}
+h5.card-title {display: flex;justify-content: center;}
+p.card-text {display: flex;justify-content: center;color: rgb(80, 80, 80);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+p.card-precio {font-size: 18px;color: rgb(255, 0, 0); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
-/*INICIO MAIN*/
-
-h1      {display: flex;justify-content: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                font-size: 40px; color: white;}
-
-/*FIN MAIN*/
-
-/*INICIO MAIN*/
+/*FIN MAIN PRODUCOTS*/
 
 footer u {background-color: black;
         height: 100px;
@@ -48,9 +56,8 @@ input
         
             
 div  .card {border: 1px solid rgba(161, 161, 161, 0.808);}
-
 div .row .col-8 {display: block}
-h5.title1 {color: black;}
-p.subtitle2 {color: rgb(26, 26, 26);}
+h5.carrusel-title{color: black;}
+p.carrusel-subtitle {color: rgb(29, 29, 29);}
 div .carousel-caption {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
             
