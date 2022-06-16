@@ -18,9 +18,6 @@ div .carousel-caption {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 /*FIN MAIN INDEX*/
-
-/*INICIO MAIN PRODUCTOS*/
-
 h1.title-productos {
   display: flex;
   justify-content: center;
@@ -48,5 +45,3 @@ p.card-precio {
   font-size: 18px;
   color: red;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-  /*FIN MAIN PRODUCTOS*/
-  @media screen and (max-width: 530px) { div.container {justify-content: center;} div p. {font-size: 22px;}}
