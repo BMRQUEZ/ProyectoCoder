@@ -18,12 +18,14 @@ div .carousel-caption {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 /*FIN MAIN INDEX*/
+/*INICIO MAIN PRODUCTOS*/
 h1.title-productos {
   display: flex;
   justify-content: center;
   color: #1d1d1d;
   margin: 15px;
-  font-size: 40px; }
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
 h3.subtitle-productos {
   display: flex;
@@ -45,3 +47,70 @@ p.card-precio {
   font-size: 18px;
   color: red;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+/*FIN MAIN PRODUCTOS*/
+/*INICIO PROYECTO*/
+h1.titulo-proyecto {
+  display: flex;
+  justify-content: center;
+  color: #1d1d1d;
+  margin: 15px;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+h2.subtitulo-proyecto {
+  display: flex;
+  justify-content: center;
+  color: #363636;
+  margin: 25px; }
+
+h3.descripcion-proyecto {
+  display: flex;
+  justify-content: center;
+  font-size: 25px; }
+
+/*FIN MAIN PROYECTO*/
+/*INICIO MAIN CONTACTO*/
+div.container-md {
+  border: 1px solid rgba(161, 161, 161, 0.808);
+  padding: 15px;
+  display: block;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 25px; }
+
+h1.titulo-contacto {
+  display: flex;
+  justify-content: center;
+  color: #1d1d1d;
+  margin: 15px;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+/*FIN MAIN CONTACTO*/
+/*INICIO MAIN QUIENES SOMOS*/
+h1.titulo-qs {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 15px;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+p.parrafo2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.0vw;
+  color: rgba(255, 255, 255, 0.774);
+  margin: 20px; }
+
+/*FIN MAIN QUIENES SOMOS*/
+/*FOTTER*/
+footer u {
+  background-color: black;
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
