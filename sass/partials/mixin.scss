@@ -1,0 +1,8 @@
+@mixin titulos
+{ display: flex;justify-content: center;color: rgb(29, 29, 29); margin: 15px;font-size: 45px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+h1.titluo-productos {@include titulos;}
+h1.titulo-proyecto {@include titulos;}
+h1.titulo-contacto {@include titulos;}

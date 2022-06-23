@@ -114,3 +114,27 @@ footer u {
   display: flex;
   justify-content: space-around;
   align-items: center; }
+
+h1.titluo-productos {
+  display: flex;
+  justify-content: center;
+  color: #1d1d1d;
+  margin: 15px;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+h1.titulo-proyecto {
+  display: flex;
+  justify-content: center;
+  color: #1d1d1d;
+  margin: 15px;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+h1.titulo-contacto {
+  display: flex;
+  justify-content: center;
+  color: #1d1d1d;
+  margin: 15px;
+  font-size: 45px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }

@@ -22,7 +22,7 @@ div .carousel-caption {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Ar
 /*FIN MAIN INDEX*/
 
 /*INICIO MAIN PRODUCTOS*/
-h1.title-productos {display: flex;justify-content: center;color: rgb(29, 29, 29); margin: 15px;font-size: 45px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+h1.titulo-productos {display: flex;justify-content: center;color: rgb(29, 29, 29); margin: 15px;font-size: 45px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 h3.subtitle-productos{display: flex;justify-content: center;color: rgb(54, 54, 54);margin: 25px;}
 h5.card-title {display: flex;justify-content: center;}
 p.card-text {display: flex;justify-content: center;color: rgb(80, 80, 80);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
