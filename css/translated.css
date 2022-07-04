@@ -3,10 +3,24 @@ div h1 {
   display: flex;
   justify-content: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 40px;
+  font-size: 38px;
   color: white;
-  padding: 10px;
+  padding: 15px;
   animation: move 3s; }
+
+div p.parrafo1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.774);
+  margin: 20px; }
+
+div .card {
+  border: 1px solid rgba(161, 161, 161, 0.808); }
+
+div .row .col-8 {
+  display: block; }
 
 h5.carrusel-title {
   color: black; }
@@ -19,7 +33,7 @@ div .carousel-caption {
 
 /*FIN MAIN INDEX*/
 /*INICIO MAIN PRODUCTOS*/
-h1.title-productos {
+h1.titulo-productos {
   display: flex;
   justify-content: center;
   color: #1d1d1d;
@@ -94,6 +108,7 @@ h1.titulo-qs {
   justify-content: center;
   color: white;
   margin: 15px;
+  margin-top: 0px;
   font-size: 45px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
@@ -101,7 +116,7 @@ p.parrafo2 {
   display: flex;
   justify-content: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 2.0vw;
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.774);
   margin: 20px; }
 
@@ -138,3 +153,28 @@ h1.titulo-contacto {
   margin: 15px;
   font-size: 45px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+@media (max-width: 525px) {
+  .col {
+    display: flex;
+    justify-content: center; } }
+
+@media (max-width: 583px) {
+  div p.parrafo1 {
+    font-size: 28px; } }
+
+@media (max-width: 583px) {
+  div p.parrafo1 {
+    font-size: 12px; } }
+
+@media (max-width: 600px) {
+  p.parrafo2 {
+    font-size: 12px; }
+  h1.titulo-qs {
+    font-size: 26px; } }

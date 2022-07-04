@@ -1,7 +1,5 @@
-$subtitulos: (
-        h1:margin 15px,
-        h2:margin 25px
-
-)
-$h2 map-get($subtitulos, h2)
-$h1 map-get($subitulos, h1 )
+*       
+        {margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;}
