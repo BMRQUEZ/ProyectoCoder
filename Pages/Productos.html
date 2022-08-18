@@ -38,9 +38,13 @@
         <li class="nav-item">
             <a class="nav-link" href="../Pages/QuienesSomos.html">Quienes Somos</a>
        </li>
+       
         <form class="d-flex" role="search">
         <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
         <button type="button" class="btn btn-outline-light">Buscar</button>
+       
+        <a  id="botonCarrito" data-bs-toggle="modal" data-bs-target="#idModal" class="btn btn-outline-dark" style="margin-left:300px "><img src="/Img/carrito 3.png" alt=""> Carrito</a>
+
       </ul>
     </div>               
   </nav>      
@@ -52,7 +56,7 @@
 <!--INICIO MAIN-->
         
     <h1 class="titulo-productos">Productos</h1>
-
+<!--
     <h3 class="subtitle-productos">Selectora rapida</h3>
 
 <div class="container">
@@ -65,11 +69,11 @@
         <h5 class="card-title">Selectora Rapida</h5>
         <p class="card-text">Selectora Rapida Falcon Chevy Torino </p>
         <p class="card-precio"> $46.000</p>
-        <button href="#"  class="btn btn-primary" class="btnComprar">Comprar</button>
+        <button href="#" id="agregarBtn" class="btn btn-primary"  >Agregar al carrito</button>
       </div>
     </div>
                 </div>
-</button>
+
     <div class="col"> 
       <div class="card" style="width: 15rem;">
       <img src="../Img/Selectora rapida 1 productos.jpg" class="card-img-top" alt="Selectora rapida">
@@ -78,7 +82,7 @@
         <h4 class="card-title">Selectora Rapida</h4>
         <p class="card-text">Selectora rapida para vw Senda-Gol </p>
         <p class="card-precio"> $38.000</p>
-        <button href="#"  class="btn btn-primary" class="btnComprar">Comprar</button>
+        <button href="#" id="agregarBtn"   class="btn btn-primary" >Agregar al carrito</button>
       </div>
     </div>
                 </div>
@@ -91,7 +95,7 @@
         <h5 class="card-title">Selectora Rapida</h5>
         <p class="card-text">Selectora rapida para caja lancia Fiat</p>
         <p class="card-precio"> $30.000</p>
-        <button href="#"  class="btn btn-primary" class="btnComprar">Comprar</button>
+        <button href="#" id="agregarBtn"  class="btn btn-primary" >Agregar al carrito</button>
       </div>
     </div>
                 </div>
@@ -104,7 +108,7 @@
         <h5 class="card-title">Selectora Rapida</h5>
         <p class="card-text">Selectora Rapida Caja A230 Dodge Gtx Rt Polara </p>
         <p class="card-precio"> $47.000</p>
-        <button href="#"  class="btn btn-primary" class="btnComprar">Comprar</button>
+        <button href="#" id="agregarBtn"  class="btn btn-primary" >Agregar al carrito</button>
       </div>
     </div>
                 </div>
@@ -119,7 +123,7 @@
         <h4 class="card-title">Volante de competicion </h4>
         <p class="card-text">Volante de competicion tapizado gamuza 355 Mm</p>
         <p class="card-precio"> $12.000</p>
-        <button href="#"  class="btn btn-primary" class="btnComprar">Comprar</button>
+        <button href="#" id="agregarBtn"  class="btn btn-primary" >Agregar al carrito</button>
       </div>
     </div>
                 </div>
@@ -133,7 +137,7 @@
         <h4 class="card-title">Volante de competicion</h4>
         <p class="card-text">Volante de competicion aluminio perforado 355mm</p>
         <p class="card-precio"> $9.000</p>
-        <button href="#"  class="btn btn-primary" class="btnComprar">Comprar</button>
+        <button href="#" id="agregarBtn"  class="btn btn-primary" >Agregar al carrito</button>
       </div>
     </div>
                 </div>
@@ -146,7 +150,7 @@
         <h4 class="card-title">Volante de competicion</h4>
         <p class="card-text">Volante de competicion Base Plana</p>
         <p class="card-precio"> $26.000</p>
-        <button href="#"  class="btn btn-primary" class="btnComprar">Comprar</button>
+        <button href="#" id="agregarBtn"  class="btn btn-primary" >Agregar al carrito</button>
       </div>
     </div>
                   </div>           
@@ -158,7 +162,7 @@
         <h4 class="card-title">Volante de competicion</h4>
         <p class="card-text">Volante de competicion tapizado Cuero 355mm</p>
         <p class="card-precio"> $17.000</p>
-        <button href="#"  class="btn btn-primary" class="btnComprar">Comprar</button>
+        <button href="#"id="agregarBtn"   class="btn btn-primary" >Agregar al carrito</button>
       </div>
     </div>
                   </div> 
@@ -175,7 +179,7 @@
         <h4 class="card-title">Butaca de competicion</h4>
         <p class="card-text">Butaca Nick De Competición Modelo Carrera Iv Negra Grande L</p>
         <p class="card-precio"> $28.290 c/u</p>
-        <a href="#" class="btn btn-primary" class="btnComprar">Comprar</a>
+        <a href="#"id="agregarBtn"  class="btn btn-primary">Agregar al carrito</a>
       </div>
     </div>
                 </div>
@@ -188,7 +192,7 @@
         <h4 class="card-title">Butaca de competicion</h4>
         <p class="card-text">Butaca Nick De Competición Modelo Indy Negra Talle Grande</p>
         <p class="card-precio"> $32.200 c/u</p>
-        <a href="#"  class="btn btn-primary" class="btnComprar">Comprar</a>
+        <a href="#" id="agregarBtn"  class="btn btn-primary">Agregar al carrito</a>
       </div>
     </div>
                 </div>
@@ -201,7 +205,7 @@
         <h4 class="card-title">Butaca de competicion</h4>
         <p class="card-text">Butaca Competición Mec Sport De Calle Roja Talle Grande</p>
         <p class="card-precio"> $29.000 c/u </p>
-        <a href="#"  class="btn btn-primary" class="btnComprar">Comprar</a>
+        <a href="#"id="agregarBtn"   class="btn btn-primary">Agregar al carrito</a>
       </div>
     </div>
                   </div>           
@@ -213,7 +217,7 @@
         <h4 class="card-title">Butaca de competicion</h4>
         <p class="card-text">Butaca Competición Mec Sport Cerrada Roja</p>
         <p class="card-precio"> $34.000 c/u</p>
-        <a href="#"class="btn btn-primary" class="btnComprar" >Comprar</a>
+        <a href="#"id="agregarBtn" class="btn btn-primary" >Agregar al carrito</a>
       </div>
     </div>
                   </div> 
@@ -221,7 +225,35 @@
 
   </div>
 </div>
+asdas-->
 
+
+<div id="contenedor"></div>
+
+<!-- Modal -->
+<!--Modal Carrito-->
+<div class="modal fade" id="idModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Carrito de Compras</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        
+      </div>
+      <div class="row ml-ato">
+        <p id="precioTotal"></p>
+      </div>
+      <div class="modal-footer">
+        
+        
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" data-bs-dismiss="modal" class="btn btn-success" id="botonFinalizarCompra">Finalizar Compra</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!--FIN MAIN-->
 
 
