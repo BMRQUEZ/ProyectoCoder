@@ -1,3 +1,6 @@
+swal.fire('¡Bienvenidos MQProParts!')
+
+
 //Declaracion de productos
 class Productos {
   constructor(id,imagen, nombre, descripcion, precio) {
@@ -66,12 +69,10 @@ divContenedor.appendChild (nuevoProducto)
 let btnAgregar =document.getElementById (`agregarBtn${producto.id}`)
 btnAgregar.addEventListener('click', () => agregarAlCarrito(producto))})
 function agregarAlCarrito(producto){
-  console.log(`El producto ${producto.descripcion} ha sido agregado al carrito de compras.`)
-  productosEnCarrito.push(producto)
+  console.log(`El producto ${producto.descripcion} ha sido agregado al carrito de compras.`);
+  productosEnCarrito.push(producto);
   console.log(productosEnCarrito);
-localStorage.setItem("carrito", JSON.stringify(productosEnCarrito))}
-
-
+localStorage.setItem("carrito", JSON.stringify(productosEnCarrito))
 function cargarProductosCarrito(productosDelStorage) {
   modalBody.innerHTML = " "  
   productosDelStorage.forEach((productoCarrito) => {
@@ -104,4 +105,4 @@ function compraTotal(productosTotal) {
         parrafoCompra.innerHTML = `<p> No hay productos en el carrito </p>`
     }else{
         parrafoCompra.innerHTML = `Suma total de sus productos ${acumulador}`
-    }}   
+    }}  } 
