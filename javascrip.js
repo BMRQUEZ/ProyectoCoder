@@ -32,6 +32,7 @@ let modalBody = document.getElementById("modal-body")
 let botonFinalizarCompra = document.getElementById("botonFinalizarCompra")
 let parrafoCompra = document.getElementById('precioTotal')
 let acumulador
+let paymentBrick_container = document.getElementById("paymentBrick_container")
 
 
 //Evento botonCarrito
@@ -115,4 +116,5 @@ function compraTotal(productosTotal) {
         parrafoCompra.innerHTML = `Suma total de sus productos ${acumulador}`
     }}  
 
-   
+
+    botonFinalizarCompra.addEventListener('click', () => {paymentBrick_container.classList.add('show')})

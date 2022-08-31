@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/BMRQUEZ/ProyectoCoder#readme",
   "dependencies": {
+    "mercadopago": "^1.5.14",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16",
     "sweetalert2": "^11.4.29"

@@ -58,7 +58,7 @@ footer u {background-color: black;
 
    
 
-
-        
-
-            
+.paymentBrick_container.show{
+        pointer-events: auto;
+        opacity: 1;
+}
